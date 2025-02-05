@@ -13,6 +13,20 @@
     </div>
         <div id="topbarRT" class="topbarRT"><i><b>Super-Server</b></i></div>
 
+        <script>
+            function transitionToPage(page) {
+                document.body.classList.add('fade-out');
+        
+                setTimeout(function() {
+                    window.location.href = page;
+                }, 1000);
+            }
+        
+            window.onload = function() {
+                document.body.classList.add('fade');
+            }
+        </script>
+
 <div id="borderbar" class="borderbar"></div>
 
 <div id="body" class="body"><p style="text-indent: 15px;">    
@@ -99,6 +113,18 @@
 
 <script>
 </script>
+
+<style>
+    /* the main fade script, i think itll work on other pages? */
+    .fade {
+        opacity: 1;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .fade-out {
+        opacity: 0;
+    }
+</style>
 
 
 </html>
