@@ -3,19 +3,35 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
-    <div id="topbar" class="topbar">[<a href="Wiki.html" style="color: green; text-decoration: none;"> Wiki </a>]   |   [
-        <a href="Contributors.html" style="color: red; text-decoration: none;"> Contributors </a>]   |   [
-        <a href="About.html" style="color: blue; text-decoration: none;"> About-Us </a>]   |   [<a href="Feature.html" style="color: #DF00FF; text-decoration: none;"> Unfinished </a>]
-           |   [<a href="Timeline.html" style="color: #00FFE1; text-decoration: none;"> Unfinished </a>]   |   [<a href="Project1.html" style="color: blue; text-decoration: none;"> Main</a> ] Created 2-3-2025</div>
-           <div id="topbarRT" class="topbarRT"><i><b>Super-Server</b></i></div>        
+    <div id="topbar" class="topbar">
+        [<span onclick="transitionToPage('Wiki.html')" style="color: green; cursor: pointer;"> Wiki </span>] | 
+        [<span onclick="transitionToPage('Contributors.html')" style="color: red; cursor: pointer;"> Contributors </span>] | 
+        [<span onclick="transitionToPage('About.html')" style="color: blue; cursor: pointer;"> About-Us </span>] | 
+        [<span onclick="transitionToPage('Feature.html')" style="color: #DF00FF; cursor: pointer;"> Unfinished </span>] | 
+        [<span onclick="transitionToPage('Timeline.html')" style="color: #00FFE1; cursor: pointer;"> Unfinished </span>] | 
+        [<span onclick="transitionToPage('Project1.html')" style="color: blue; cursor: pointer;"> Main</span>] Created 2-3-2025
+    </div>
+    <div id="topbarRT" class="topbarRT"><i><b>Super-Server</b></i></div>        
+
+<script>
+    function transitionToPage(page) {
+        document.body.classList.add('fade-out');
+
+        setTimeout(function() {
+            window.location.href = page;
+        }, 1000);
+    }
+
+    window.onload = function() {
+        document.body.classList.add('fade');
+    }
+</script>
 
 <div id="borderbar" class="borderbar"></div>
 
 <div id="body" class="body"><p style="text-indent: 15px;">       Welcome to the "Super-Server" website. It is a project that I have dedicated to <i>THE</i> Super Garrys Mod Super-Server
-    This page will contain a timeline of events that occured on Super, A scheduel for events yet-to-come, and a <i>(Sloppy)</i> Wiki. I'm glad you're here, enjoy!
-    <p>
-        CE. ExPansiveEnd <i>(PS: Player-Wiki coming soon)</i>
-    </p>
+    <p> CE. ExPansiveEnd <i>(PS: Player-Wiki coming soon)</i> </p>
+
     <p>---------------------------------------------------------------------------------------------------------------</p>
     
     The Super Garrys Mod server, better known as just <i>"Super"</i> by those who frequent it, including myself.
@@ -72,11 +88,11 @@
         Thanks! ExPansiveEnd.
     </p>
 
+
     <img src="FamilyPhoto.jpg" width="1000px" height="500px">
 </div>
 
 <div id="sidebar" class="sidebar">
-
     <img src="trappedidiot.jpg" width="200px" height="200px" style="float: right;">
     An idiot got himself trapped.
 </div>
@@ -86,6 +102,15 @@
 <div id="title2" class="title2">[ <a style="color: #00FFE1;">ADDENDUM</a> ]</div>
 
 <style>
+    /* the main fade script, i think itll work on other pages? */
+    .fade {
+        opacity: 1;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .fade-out {
+        opacity: 0;
+    }
 
     html {background-image: url(backgroundweb.jpg);}
 
@@ -114,9 +139,5 @@
     src: url(Px437_IBM_VGA_8x16.ttf);
     }
 </style>
-
-<script>
-</script>
-
 
 </html>
