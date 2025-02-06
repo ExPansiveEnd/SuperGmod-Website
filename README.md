@@ -12,7 +12,7 @@
 This is the source code for the Super Garry's Mod (Unoffical) website! Created by ExPansiveEnd and tomichael.
 
 # What is Super Garry's Mod?
-Super Garry's Mod (often refred to as "Super") is a GMod multiplayer server, made by it's creator often refered to as "console". It is a semi-anarchy server with it's only rules being basic common sense.
+Super Garry's Mod (often refred to as "Super") is a GMod multiplayer server, made by it's creator often refered to as "console" in 2019. It is a semi-anarchy server with it's only rules being basic common sense.
 
 
 1: No aimbots, exploits, cheats, glitching
