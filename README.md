@@ -28,6 +28,6 @@ This website mainly hosts a wiki, documentation on server command and functions,
 
 # What's the server IP?
 
-The server IP is : 193.243.190.4:27075
+The server IP is : 193.243.190.4:27075 <em> (Note you must own a non-cracked client to join) <em>
 
-(Note you must own a non-cracked client to join)
+you can find more server info [here](https://whatthe.site/splash)
