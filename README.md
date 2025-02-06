@@ -24,7 +24,7 @@ Super Garry's Mod (often refred to as "Super") is a GMod multiplayer server, mad
 4: No to anything illegal
 
 # What is this website for?
-This website mainly hosts a wiki, documentation on server command and functions, and other related things. It's actively maintained by ExPansiveEnd and tomichael.
+This website mainly hosts a wiki, documentation on server command and functions, and other related things. It's currently in the process of porting over old information from the past created [miaheze wiki](https://supergarrysmodserver.miraheze.org/wiki/Super_Garrys_Mod_Server_Wiki), as well as adding new information, and website poloshing.
 
 # What's the server IP?
 
