@@ -3,7 +3,7 @@
            margin-left: auto;
            margin-right: auto;
            width: 30%;"
-    src="patchoulibook.jpg" 
+    src="SuperServerLogo.png" 
     alt="Our logo">
 </img>
 
