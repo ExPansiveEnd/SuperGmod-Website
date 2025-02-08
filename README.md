@@ -3,7 +3,7 @@
            margin-left: auto;
            margin-right: auto;
            width: 30%;"
-    src="SuperServerLogo.png" 
+    src="Images/SuperServerLogo.png" 
     alt="Our logo">
 </img>
 
