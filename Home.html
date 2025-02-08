@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+    <div id="topbar" class="topbar">
+        [<span onclick="transitionToPage('')" style="color: green; cursor: pointer;">Home</span>] &nbsp;|&nbsp;
+        [<span onclick="transitionToPage('Wiki.html')" style="color: green; cursor: pointer;">Wiki</span>] &nbsp;|&nbsp;
+        [<span onclick="transitionToPage('Contributors.html')" style="color: red; cursor: pointer;">Contributors</span>] &nbsp;|&nbsp;
+        [<span onclick="transitionToPage('About.html')" style="color: blue; cursor: pointer;">About-Us</span>] &nbsp;|&nbsp;
+        [<span onclick="transitionToPage('Feature.html')" style="color: #DF00FF; cursor: pointer;">Unfinished</span>] &nbsp;|&nbsp;
+        [<span onclick="transitionToPage('Timeline.html')" style="color: #00FFE1; cursor: pointer;">Unfinished</span>] &nbsp;|&nbsp;
+        [<span onclick="transitionToPage('Project1.html')" style="color: blue; cursor: pointer;">Main</span>] &nbsp;|&nbsp;
+        Created 2-3-2025
+    </div>
+        <div id="topbarRT" class="topbarRT"><i><b>Super-Server</b></i></div>
+
+        <script>
+            function transitionToPage(page) {
+                document.body.classList.add('fade-out');
+        
+                setTimeout(function() {
+                    window.location.href = page;
+                }, 1000);
+            }
+        
+            window.onload = function() {
+                document.body.classList.add('fade');
+            }
+        </script>
+
+<div id="borderbar" class="borderbar"></div>
+
+<div id="body" class="body"><p style="text-indent: 15px;">  Welcome to the <a style="color: turquoise;">Super Garry's Mod</a> website!
+    </p>
+    <p style="text-indent: 15px;">
+        Website map: 
+    </p>
+    <p style="text-indent: 15px;">
+        [ <a href="Home.html" style="color: cyan; text-decoration: none;">Homepage</a> ]
+        </p>
+        <p style="text-indent: 15px;">
+            [ <a href="Wiki.html" style="color: cyan; text-decoration: none;">Wiki homepage</a> ]
+            </p>
+            <p style="text-indent: 15px;">
+                [ <a href="Contributors.html" style="color: cyan; text-decoration: none;">Contributors</a> ]
+                </p>
+                <p style="text-indent: 15px;">
+                    [ <a href="About.html" style="color: cyan; text-decoration: none;">About</a> ]
+                    </p>
+
+
+                <h1>Wiki</h1>
+
+
+    <p style="text-indent: 15px;">
+        [ <a href="Crateitems.html" style="color: cyan; text-decoration: none;">Crate Items</a> ]
+    </p>
+    <p style="text-indent: 15px;">
+        [ <a href="People.html" style="color: cyan; text-decoration: none;">People</a> ] 
+    </p>
+    <p style="text-indent: 15px;">
+        [ <a href="Events.html" style="color: cyan; text-decoration: none;">Events</a> ]
+    </p>
+    <p style="text-indent: 15px;">
+        [ <a href="Lore.html" style="color: cyan; text-decoration: none;">Lore</a> ]  ◄  Warning Unfinished
+    </p>
+    <p>---------------------------------------------------------------------------------------------------------------</p>
+   
+        
+    </p>
+</div>
+
+<div id="sidebar" class="sidebar">
+
+    <img src="trappedidiot.jpg" width="200px" height="200px" style="float: right;">
+    An idiot got himself trapped.
+</div>
+
+<div id="title1" class="title1">&nbsp;&nbsp;&nbsp;[ <a style="color: rgb(60, 134, 30);">Home</a> ]</div>
+
+<div id="title2" class="title2">&nbsp;&nbsp;&nbsp;[ <a style="color: #d12121;">Recent Activity</a> ]</div>
+
+<style>
+
+    html {background-image: url(backgroundweb.jpg);}
+
+    .title2 {font-family: "OldComputer"; color: white; position: absolute; top: 25%; background-color: rgb(23, 35, 25, 0.5); height: 5%; width: 8%;
+    left: 80%; line-height: 100%; padding: 15px;}
+
+    .title1 {font-family: "OldComputer"; color: white; position: absolute; top: 25%; background-color: rgb(23, 35, 25, 0.5); height: 5%; width: 8%;
+    left: 25%; line-height: 100%; padding: 15px;}
+
+    .sidebar {font-family: "OldComputer"; color: white; position: absolute; top: 35%; background-color: rgb(23, 35, 25, 0.5); height: 200%; width: 27%;
+    overflow-y: scroll; overflow-x: hidden; left: 70%;}
+
+    .body {font-family: "OldComputer"; color: white; position: absolute; top: 35%; background-color: rgb(23, 35, 25, 0.5); height: 200%; width: 60%;
+    overflow-y: scroll; overflow-x: hidden;}
+
+    .borderbar {top: 15%; height: 5px; border-color: white; border-width: 5px; width: 98%; position: absolute; border-style: dashed;}
+
+    .topbarRT {font-size: 200%; font-family: "OldComputer"; color: white; position: absolute; top: 4%; background-color: rgb(23, 35, 25, 0.5); left: 85%; height: 50px;
+    line-height: 50px; border-style: dashed; text-decoration: white; border-color: white; border-width: 2px; padding: 5px; transform: scaleY(0.5);}
+
+    .topbar {font-family: "OldComputer"; color: white; position: absolute; top: 5%; background-color: rgb(23, 35, 25, 0.5); height: 50px; width: 99%;
+    line-height: 50px;} 
+
+    @font-face {
+    font-family: "OldComputer";
+    src: url(Px437_IBM_VGA_8x16.ttf);
+    }
+</style>
+
+<script>
+</script>
+
+<style>
+    /* the main fade script, i think itll work on other pages? */
+    .fade {
+        opacity: 1;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .fade-out {
+        opacity: 0;
+    }
+</style>
+
+</html>
