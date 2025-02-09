@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "OldComputer", Courier, monospace;
+    background-image: url('Images/backgroundweb.jpg');
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, p {
+    margin: 0 0 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .topbar {
+    background-color: rgba(23, 35, 25, 0.5);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "OldComputer", Courier, monospace;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .topbar a {
+    color: green;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .topbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .topbarRT {
+    font-size: 200%;
+    font-family: "OldComputer", Courier, monospace;
+    color: white;
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    background-color: rgba(23, 35, 25, 0.5);
+    padding: 10px;
+  }
+  
+  .title1, .title2 {
+    font-family: "OldComputer", Courier, monospace;
+    color: white;
+    position: absolute;
+    background-color: rgba(23, 35, 25, 0.5);
+    height: 5%;
+    padding: 10px;
+  }
+  
+  .title1 {
+    top: 25%;
+    left: 25%;
+  }
+  
+  .title2 {
+    top: 25%;
+    left: 80%;
+  }
+  
+  .body {
+    font-family: "OldComputer", Courier, monospace;
+    color: white;
+    position: relative;
+    top: 35%;
+    width: 70%;
+    margin-left: 30%;
+    background-color: rgba(23, 35, 25, 0.5);
+    padding: 15px;
+    overflow-y: scroll;
+  }
+  
+  .sidebar {
+    font-family: "OldComputer", Courier, monospace;
+    color: white;
+    position: fixed;
+    top: 35%;
+    left: 70%;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(23, 35, 25, 0.5);
+    padding: 15px;
+    overflow-y: scroll;
+  }
+  
+  .borderbar {
+    top: 15%;
+    height: 5px;
+    border-color: white;
+    border-width: 5px;
+    width: 98%;
+    position: absolute;
+    border-style: dashed;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+  }
+  
+  img.sidebar-img {
+    width: 200px;
+    height: 200px;
+    float: right;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @font-face {
+    font-family: "OldComputer";
+    src: url('font/Px437_IBM_VGA_8x16.ttf');
+  }
