@@ -2,8 +2,8 @@
 <title>About</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/main.css">
 <html lang="en">
+<link rel="stylesheet" href="css/main.css">
 <div id="topbar" class="topbar">
     [<span onclick="transitionToPage('')" style="color: green; cursor: pointer;">Home</span>] &nbsp;|&nbsp;
     [<span onclick="transitionToPage('Wiki.html')" style="color: green; cursor: pointer;">Wiki</span>] &nbsp;|&nbsp;
@@ -95,6 +95,7 @@
 <div id="title2" class="title2">[ <a style="color: #00FFE1;">ADDENDUM</a> ]</div>
 
 <style>
+    /* the main fade script, i think itll work on other pages? */
     .fade {
         opacity: 1;
         transition: opacity 1s ease-in-out;
@@ -104,6 +105,7 @@
         opacity: 0;
     }
 
+    html {background-image: url(Images/backgroundweb.jpg);}
 
     .title2 {font-family: "OldComputer"; color: white; position: absolute; top: 25%; background-color: rgb(23, 35, 25, 0.5); height: 5%; width: 8%;
     left: 80%; line-height: 100%; padding: 15px;}
