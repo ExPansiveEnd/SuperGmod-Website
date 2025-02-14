@@ -7,5 +7,5 @@ function transitionToPage(page) {
 }
 
 window.onload = function() {
-    document.body.classList.add('fade');
-}
+    document.body.classList.add('fade-in');
+};
